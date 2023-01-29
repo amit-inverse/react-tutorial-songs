@@ -1,7 +1,12 @@
 import { selectSong } from './actions';
+import SongList from './components/SongList';
 
 function App() {
-    return <div>App</div>;
+    return (
+        <div>
+            <SongList />
+        </div>
+    );
 }
 
 export default App;
